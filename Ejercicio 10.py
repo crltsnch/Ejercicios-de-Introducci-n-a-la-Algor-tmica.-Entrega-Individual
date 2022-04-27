@@ -22,4 +22,3 @@ Poscondicion
     Reaultado > 0
 
 Fin area triangulo
-
