@@ -34,3 +34,14 @@ Fin calculo de impuesto
 Algoritmo importe
 
 Entrada
+    capi: REAL #Capital inicial
+    intereses: REAL #Porcentaje de intereses
+    tiempo: REAL #Tiempo en meses
+
+Precondicion
+    capi > 0
+    intereses > 0
+    tiempo > 0
+
+Variables
+    
