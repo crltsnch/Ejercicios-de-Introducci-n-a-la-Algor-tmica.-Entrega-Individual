@@ -44,4 +44,17 @@ Precondicion
     tiempo > 0
 
 Variables
-    
+    valorinicial: REAL #Valor antes de invertir
+
+Realizacion
+    valorinicial = capi
+    desde i=1 hasta i <= meses:
+        valorfinal = valorinicial + valorinicial * (intereses/100)
+    fin desde
+
+    Resultado <- valorfinal
+
+Poscondicion
+    capi < Resultado
+
+fin importe
